@@ -2,6 +2,9 @@
 
 LiquidCrystal_I2C lcd(0x27,16,2);
 
+
+
+/*test - gunwoo*/
 void setup() {
   Serial.begin(9600);
   lcd.init();
